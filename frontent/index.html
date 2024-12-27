@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Card Design HTML and CSS | CodingNepal</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jscharting.com/latest/jscharting.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="flex-direction:column;">
+    <div class="topnav">
+      <h1>Sensor Readings App <i class="fas fa-clipboard-list"></i></h1>
+    </div>
+    <div class="card-list" style="margin-top: 10px;">
+      <a href="#" class="card-item">
+        <div id="wrapper">
+          <div id="termometer">
+            <div id="temperature" style="height: 0" data-value="0°C"></div>
+            <div id="graduations"></div>
+          </div>
+          <div id="playground">
+            <p id="unit" style="margin-top: 38px">Temperature (°C)</p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="card-item">
+        <div
+          id="chartDiv"
+          style="max-width: 740px; height: 330px; margin: 0 auto"
+        ></div>
+        <div id="playground">
+          <p id="unit">Humidity (%)</p>
+        </div>
+      </a>
+      <a href="#" class="card-item">
+        <div id="soilMoistureGauge"></div>
+        <div id="playground">
+          <p id="unit" style="margin-top: 45px">Soil Moisture (%)</p>
+        </div>
+      </a>
+      <a href="#" class="card-item" id="irrigationCard">
+        <img src="./image-removebg-preview (1).png" alt="" style="height: 40vh; width: 100%;">
+        <div id="playground">
+          <p id="unit" style="color: black; font-size: x-large; font-weight: 900;">Irrigation Control: OFF</p>
+        </div>
+      </a>
+      
+      
+         
+      <a class="card-item" id="irrigationCard" href="https://backend-4ml0.onrender.com">
+        <img src="./image-removebg-preview.png" alt="" style="height: 40vh; width: 100%;">
+        <div id="playground">
+          <p id="unit" style="color: black; font-size: x-large; font-weight: 900;">Upload Photo</p>
+        </div>
+      </a>
+      
+      <a href="#" class="card-item">
+        
+      </a>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
